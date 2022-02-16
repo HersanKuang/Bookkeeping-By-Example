@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">记账宝</string>
+    <string-array name="test_string_array">
+        <item>请选择此收入类型</item>
+        <item>工资收入</item>
+        <item>基金收入</item>
+        <item>股票收入</item>
+        <item>债券收入</item>
+        <item>其他收入</item>
+    </string-array>
+    <string-array name="pay_array">
+        <item>请选择支出类型</item>
+        <item>餐饮支出</item>
+        <item>交通支出</item>
+        <item>住房支出</item>
+        <item>购物支出</item>
+    </string-array>
+</resources>

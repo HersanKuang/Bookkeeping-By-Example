@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bjlogo"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="45dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/edit_register"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text"
+        android:hint="  请输入用户名"
+        android:textColor="#3F51B5"
+        android:textColorHint="#696969"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/edit_setpassword"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text"
+        android:hint="  请输入密码"
+        android:inputType="textPassword"
+        android:textColor="#3F51B5"
+        android:textColorHint="#696969"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_resetpassword"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_text"
+        android:hint="  请确认密码"
+        android:inputType="textPassword"
+        android:textColor="#3F51B5"
+        android:textColorHint="#696969"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_register1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/button_style"
+            android:text="注册"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:onClick="onRegister"/>
+
+        <Button
+            android:id="@+id/btn_exit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_style"
+            android:text="退出"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:onClick="onLogin"/>
+
+    </LinearLayout>
+</LinearLayout>
